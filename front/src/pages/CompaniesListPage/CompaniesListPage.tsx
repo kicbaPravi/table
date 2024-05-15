@@ -1,6 +1,6 @@
 import moment from 'moment';
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import DataTable from '../../components/DataTable.tsx/DataTable';
+import DataTable from '../../components/DataTable/DataTable';
 import styles from './companiesListPage.module.scss';
 import api from '../../config/axios';
 import { GridColDef } from '@mui/x-data-grid';

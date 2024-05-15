@@ -37,6 +37,9 @@ const styleTable = {
     '& .dataTable_pagination__vMm8-': {
       width: '100%',
       marginTop: 0
+    },
+    '& .dataTable_pagination__dCNX9': {
+      width: '100%'
     }
   },
   '& .MuiDataGrid-row': {
