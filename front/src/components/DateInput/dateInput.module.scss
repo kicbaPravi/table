@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin-bottom: 8px;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0.4000000059604645px;
+    color: #718096;
+  }
+}

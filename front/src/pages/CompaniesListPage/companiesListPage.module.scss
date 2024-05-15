@@ -1,0 +1,29 @@
+.wrapper {
+  margin: 0 22.67px;
+  width: 100%;
+
+  .form_row {
+    display: flex;
+    margin-bottom: 19px;
+    gap: 24px;
+    align-items: flex-end;
+  }
+
+  h1 {
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 36.4px;
+    color: #1a202c;
+    margin-top: 91px;
+    margin-bottom: 27px;
+  }
+}
+
+.editDialogWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 25px;
+  width: 350px;
+}

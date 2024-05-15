@@ -1,0 +1,89 @@
+.wrapper {
+  background-color: #e7e9e4;
+  width: 258.33px;
+  padding-top: 136.4px;
+  height: 100vh;
+
+  .user_account {
+    border: 1.03px solid #114c3a;
+    margin-left: 10.33px;
+    margin-right: 10.33px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10.33px;
+    padding: 12.3px 12.4px 12.96px 12.4px;
+    margin-bottom: 44.43px;
+    width: 237.66px;
+
+    img {
+      width: 33.07px;
+      height: 33.07px;
+      border-radius: 50%;
+    }
+
+    .user_data {
+      display: flex;
+      flex-direction: column;
+
+      p.user_name {
+        font-family: Poppins;
+        font-size: 14.47px;
+        font-weight: 600;
+        line-height: 21.7px;
+        letter-spacing: 0.10333024710416794px;
+        color: #171725;
+        margin: 0;
+      }
+
+      p.user_tag {
+        font-family: Roboto;
+        font-size: 12.4px;
+        font-weight: 400;
+        line-height: 14.53px;
+        color: #92929d;
+        margin: 0;
+      }
+    }
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 51.37px;
+  }
+
+  p.recently_used {
+    font-size: 13.43px;
+    font-weight: 600;
+    line-height: 20.15px;
+    letter-spacing: 0.962693452835083px;
+    color: #92929d;
+    padding-left: 20.67px;
+    margin-bottom: 26.43px;
+    margin-top: 0;
+  }
+
+  .recently_box {
+    padding: 0 15px 0 21.16px;
+    display: flex;
+    justify-content: space-between;
+
+    .name {
+      margin-left: 15.5px;
+      font-size: 14.47px;
+      font-weight: 500;
+      line-height: 21.7px;
+      letter-spacing: 0.10333024710416794px;
+    }
+  }
+}
+
+.link_wrapp {
+  height: 53.73px;
+  display: flex;
+  align-items: center;
+  padding-left: 22.73px;
+  padding-right: 22.73px;
+  gap: 21px;
+}

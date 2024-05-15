@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', 'Manrope', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f8f3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 14.47px;
+  font-weight: 600;
+  line-height: 21.7px;
+  letter-spacing: 0.10333024710416794px;
+  color: #171725;
+
+  &:hover,
+  &:focus {
+    color: #045450;
+    cursor: pointer;
+  }
+
+  &:visited,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.MuiPaper-root {
+  border-radius: 12px !important;
+  position: relative;
+  top: -15px;
+  right: 10px;
+}
